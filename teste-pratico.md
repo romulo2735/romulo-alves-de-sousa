@@ -29,6 +29,7 @@ Sua aplicação deve possuir:
 	- Testes automatizados.
 
 - Criar um comando para importação de dados a partir [deste arquivo](/example.csv) csv:
+	- Criar a tabela para armazenar os dados a serem importados.		 	
 	- Criar um endpoint para retornar uma análise dos dados importados e executar os seguintes cálculos:
 		- Separar os cálculos pelo dia da data registrada.
 		- Média.
