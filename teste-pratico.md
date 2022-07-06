@@ -1,10 +1,10 @@
-#  Teste para candidatos à vaga de Desenvolvedor PHP Pleno
+#  Teste para candidatos à vaga de Desenvolvedor PHP Estech
 
 Olá caro desenvolvedor, nesse teste analisaremos seu conhecimento geral e inclusive velocidade de desenvolvimento. Abaixo explicaremos tudo o que será necessário.
 
 ##  Instruções
 
-O desafio consiste em implementar uma aplicação api rest utilizando o framework PHP Laravel, um banco de dados relacional (Mysql), que terá como finalidade a inscrição de candidatos a uma oportunidade de emprego.
+O desafio consiste em implementar uma aplicação API Rest utilizando o framework PHP Laravel, um banco de dados relacional (Mysql), que terá como finalidade a inscrição de candidatos a uma oportunidade de emprego.
 
 Sua aplicação deve possuir:
 
@@ -18,7 +18,7 @@ Sua aplicação deve possuir:
 
 - CRUD de candidatos:
 	- Criar, editar, excluir e listar candidatos.
-	- Um cadidato pode se inscrever em uma ou mais vagas.
+	- Um candidato pode se inscrever em uma ou mais vagas.
 	- Deve ser ser possível "pausar" a vaga, evitando a inscrição de candidatos (Somente Recrutador).
 
 - Cada CRUD:
@@ -68,11 +68,11 @@ Devem ser utilizadas as seguintes tecnologias:
 - Implementar autenticação de usuário na aplicação usando sanctum.
 - Alguma implementação utlizando "Jobs" e "Notifications" do Laravel.
 
-##  O que iremos analisar
+##  O que será analisado?
 
 - Organização do código;
 - Aplicação de design patterns;
-- Raciocínio lógico
+- Raciocínio lógico;
 - Aplicação de testes;
 - Legibilidade;
 - Criação do ambiente com Docker.
