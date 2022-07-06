@@ -28,7 +28,7 @@ Sua aplicação deve possuir:
 	- Implementar Cache utilizando Redis.
 	- Testes automatizados.
 
-- Criar um comando para importação de dados a partir [deste arquivo](/files/example.csv) csv:
+- Criar um comando para importação de dados a partir [deste arquivo](/example.csv) csv:
 	- Criar um endpoint para retornar uma análise dos dados importados e executar os seguintes cálculos:
 		- Separar os cálculos pelo dia da data registrada.
 		- Média.
