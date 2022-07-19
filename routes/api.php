@@ -19,3 +19,4 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::apiResource('users', \App\Http\Controllers\Api\UserController::class);
+Route::apiResource('jobs', \App\Http\Controllers\Api\JobController::class);

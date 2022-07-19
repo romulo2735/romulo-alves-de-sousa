@@ -2,10 +2,12 @@
 
 namespace Database\Seeders;
 
+use App\Models\Job;
 use Illuminate\Database\Seeder;
 
 use App\Models\Post;
 use App\Models\User;
+use Illuminate\Database\Eloquent\Factories\Sequence;
 
 class DatabaseSeeder extends Seeder
 {
@@ -28,7 +30,20 @@ class DatabaseSeeder extends Seeder
         ])
             ->has(\App\Models\User::factory()->count(3))
             ->create();
-    
+
+        $user = User::factory([
+            'role_id' => 1
+        ])
+        ->has(
+            Job::factory()->count(3)
+            ->state(new Sequence(
+                ['type' => ' CLT'],
+                ['type' => 'PJ'],
+                ['type' => 'Freelancer'],
+            ))
+        )
+        ->create();
+        
 
 
     }
