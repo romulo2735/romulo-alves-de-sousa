@@ -35,7 +35,9 @@ class UserController extends Controller
      */
     public function store(UserRequest $request)
     {
-        return $this->user->create($request->all());
+        $userData = $request->all();
+        $userData['password'] = bcrypt($userData['password']);
+        return $this->user->create($userData);
     }
 
     /**
