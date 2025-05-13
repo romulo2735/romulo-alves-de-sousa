@@ -29,6 +29,7 @@ Sua aplicação deve possuir:
 	- Testes automatizados.
 
 - Criar um comando para importação de dados a partir [deste arquivo](/example.csv) csv:
+	- Deve ser implementado de maneira assincrona, utilizando Jobs. 	
 	- Criar a tabela para armazenar os dados a serem importados.		 	
 	- Criar um endpoint para retornar uma análise dos dados importados e executar os seguintes cálculos:
 		- Separar os cálculos pelo dia da data registrada.
@@ -67,7 +68,6 @@ Devem ser utilizadas as seguintes tecnologias:
 - Permitir deleção em massa de itens nos CRUDs.
 - Permitir que o número de itens por página possa ser definido.
 - Implementar autenticação de usuário na aplicação usando sanctum.
-- Alguma implementação utlizando "Jobs" e "Notifications" do Laravel.
 
 ##  O que será analisado?
 
