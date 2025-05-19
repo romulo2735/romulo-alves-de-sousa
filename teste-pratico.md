@@ -53,6 +53,7 @@ Devem ser utilizadas as seguintes tecnologias:
 	- Docker (construção do ambiente de desenvolvimento)
 	- Mysql
 	- Redis
+ 	- Supervisor
 
 ##  Entrega
 
