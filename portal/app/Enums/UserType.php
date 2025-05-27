@@ -1,6 +1,6 @@
 <?php
 
-namespace Portal\App\Enums;
+namespace App\Enums;
 
 enum UserType: string
 {
